@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TF discreta", "TF discreta\TF discreta.csproj", "{A583E674-85C8-4F70-8C83-257F5605DE5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A583E674-85C8-4F70-8C83-257F5605DE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A583E674-85C8-4F70-8C83-257F5605DE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A583E674-85C8-4F70-8C83-257F5605DE5D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A583E674-85C8-4F70-8C83-257F5605DE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A583E674-85C8-4F70-8C83-257F5605DE5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A583E674-85C8-4F70-8C83-257F5605DE5D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {786E616F-7B60-4BA8-9218-DCA2760F08DD}
+	EndGlobalSection
+EndGlobal
