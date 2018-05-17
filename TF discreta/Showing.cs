@@ -41,7 +41,7 @@ namespace TF_discreta
             {
                Elements.Text = Elements.Text + "\n" + myTextViews[i]; 
             }
-            int a;
+           
           ButtonBack.Click += delegate
             {
                 this.Finish();
