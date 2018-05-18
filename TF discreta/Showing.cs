@@ -35,13 +35,13 @@ namespace TF_discreta
                 myTextViews[i] = Intent.GetStringExtra($"element{i}" ?? "error");
             }
 
-            var EnumText = FindViewById<TextView>(Resource.Id.enumtext);
+            var EnumText       = FindViewById<TextView>(Resource.Id.enumtext);
             var EnumElements = FindViewById<TextView>(Resource.Id.TextElement);
-            var Elements = FindViewById<TextView>(Resource.Id.Elements);
-            var CantText = FindViewById<TextView>(Resource.Id.TextCant);
-            var ButtonBack = FindViewById<Button>(Resource.Id.GoBack);
-            var container = FindViewById<LinearLayout>(Resource.Id.madre);
-            var EnumMatriz = FindViewById<TextView>(Resource.Id.matrizenum);
+            var Elements     = FindViewById<TextView>(Resource.Id.Elements);
+            var CantText     = FindViewById<TextView>(Resource.Id.TextCant);
+            var ButtonBack       = FindViewById<Button>(Resource.Id.GoBack);
+            var container       = FindViewById<LinearLayout>(Resource.Id.madre);
+            var EnumMatriz      = FindViewById<TextView>(Resource.Id.matrizenum);
             var Matriz = FindViewById<TextView>(Resource.Id.matriz);
 
             CantText.Text = myTextViews[Nelem];
@@ -117,6 +117,25 @@ namespace TF_discreta
                     CantText.Text = String.Empty;
                     Nelem++;
                     Evento(Nelem);
+                }
+                else
+                {
+                    EnumText     . Visibility = ViewStates.Gone;
+                    EnumElements . Visibility = ViewStates.Gone;
+                    Elements     . Visibility = ViewStates.Gone;
+                    CantText     . Visibility = ViewStates.Gone;
+                    ButtonBack   . Visibility = ViewStates.Gone;
+                    container.Visibility = ViewStates.Gone;
+                    Matriz.Text = String.Empty;
+
+                    for (int i = 0; i < numcant; i++)
+                    {
+                        for (int j = 0; j < numcant; j++)
+                        {
+                            Matriz.Text = Matriz.Text + " " + mat[i][j].ToString();
+                        }
+                        Matriz.Text = Matriz.Text + "\n";                    }
+
                 }
             };
             LayoutTransition trans = new LayoutTransition();
