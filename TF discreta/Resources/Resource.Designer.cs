@@ -44,50 +44,62 @@ namespace TF_discreta
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f04000d
-			public const int Elements = 2130968589;
+			// aapt resource value: 0x7f040010
+			public const int Elements = 2130968592;
+			
+			// aapt resource value: 0x7f040011
+			public const int GoBack = 2130968593;
 			
 			// aapt resource value: 0x7f04000e
-			public const int GoBack = 2130968590;
+			public const int TextCant = 2130968590;
 			
-			// aapt resource value: 0x7f04000b
-			public const int TextCant = 2130968587;
-			
-			// aapt resource value: 0x7f04000c
-			public const int TextElement = 2130968588;
+			// aapt resource value: 0x7f04000f
+			public const int TextElement = 2130968591;
 			
 			// aapt resource value: 0x7f040001
 			public const int add = 2130968577;
 			
-			// aapt resource value: 0x7f040009
-			public const int button1 = 2130968585;
+			// aapt resource value: 0x7f04000b
+			public const int button1 = 2130968587;
 			
 			// aapt resource value: 0x7f040004
 			public const int buttonnext = 2130968580;
 			
+			// aapt resource value: 0x7f040006
+			public const int comp = 2130968582;
+			
 			// aapt resource value: 0x7f040003
 			public const int container = 2130968579;
 			
-			// aapt resource value: 0x7f04000a
-			public const int enumtext = 2130968586;
+			// aapt resource value: 0x7f04000d
+			public const int enumtext = 2130968589;
 			
-			// aapt resource value: 0x7f040007
-			public const int linearLayout1 = 2130968583;
+			// aapt resource value: 0x7f040009
+			public const int linearLayout1 = 2130968585;
+			
+			// aapt resource value: 0x7f040012
+			public const int madre = 2130968594;
 			
 			// aapt resource value: 0x7f040005
-			public const int remove = 2130968581;
+			public const int nombre2 = 2130968581;
+			
+			// aapt resource value: 0x7f04000c
+			public const int relativ = 2130968588;
+			
+			// aapt resource value: 0x7f040007
+			public const int remove = 2130968583;
 			
 			// aapt resource value: 0x7f040000
 			public const int text = 2130968576;
 			
-			// aapt resource value: 0x7f040008
-			public const int textView1 = 2130968584;
+			// aapt resource value: 0x7f04000a
+			public const int textView1 = 2130968586;
 			
 			// aapt resource value: 0x7f040002
 			public const int textin = 2130968578;
 			
-			// aapt resource value: 0x7f040006
-			public const int textout = 2130968582;
+			// aapt resource value: 0x7f040008
+			public const int textout = 2130968584;
 			
 			static Id()
 			{
@@ -106,13 +118,16 @@ namespace TF_discreta
 			public const int Adding = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int fila = 2130837505;
+			public const int buttons = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int Main = 2130837506;
+			public const int fila = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int Showing = 2130837507;
+			public const int Main = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int Showing = 2130837508;
 			
 			static Layout()
 			{

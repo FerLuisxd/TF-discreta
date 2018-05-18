@@ -6,6 +6,7 @@
     android:minWidth="25px"
     android:minHeight="25px">
     <RelativeLayout
+        android:id="@+id/relativ"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
@@ -33,9 +34,15 @@
             android:id="@+id/Elements" />
         <Button
             android:text="Regresar"
-            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/Elements"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/GoBack" />
     </RelativeLayout>
+    <LinearLayout
+        android:layout_below="@id/relativ"
+        android:id="@+id/madre"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
