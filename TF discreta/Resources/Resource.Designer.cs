@@ -47,8 +47,8 @@ namespace TF_discreta
 			// aapt resource value: 0x7f040010
 			public const int Elements = 2130968592;
 			
-			// aapt resource value: 0x7f040011
-			public const int GoBack = 2130968593;
+			// aapt resource value: 0x7f040013
+			public const int GoBack = 2130968595;
 			
 			// aapt resource value: 0x7f04000e
 			public const int TextCant = 2130968590;
@@ -77,8 +77,14 @@ namespace TF_discreta
 			// aapt resource value: 0x7f040009
 			public const int linearLayout1 = 2130968585;
 			
+			// aapt resource value: 0x7f040014
+			public const int madre = 2130968596;
+			
 			// aapt resource value: 0x7f040012
-			public const int madre = 2130968594;
+			public const int matriz = 2130968594;
+			
+			// aapt resource value: 0x7f040011
+			public const int matrizenum = 2130968593;
 			
 			// aapt resource value: 0x7f040005
 			public const int nombre2 = 2130968581;

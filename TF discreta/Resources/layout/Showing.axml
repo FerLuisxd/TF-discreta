@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
-            android:text="Cantidad de elementos: "
+            android:text="Elemento: "
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/enumtext" />
@@ -21,20 +21,32 @@
             android:layout_height="wrap_content"
             android:id="@+id/TextCant" />
         <TextView
-            android:text="Elementos Existentes:"
+            android:text="Elementos Existentes: "
             android:layout_below="@id/enumtext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/TextElement" />
         <TextView
             android:layout_below="@id/TextElement"
-            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/Elements" />
+        <TextView
+            android:text="Matriz de Elementos: "
+            android:layout_below="@id/Elements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/matrizenum" />
+        <TextView
+            android:layout_below="@id/matrizenum"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/matriz" />
         <Button
             android:text="Regresar"
-            android:layout_below="@+id/Elements"
+            android:layout_below="@+id/matriz"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/GoBack" />

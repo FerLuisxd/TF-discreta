@@ -55,11 +55,8 @@ namespace TF_discreta
                             }
                         }
                     }
-
-
                     n--;
                 };
-
 
                 container.AddView(addView);
                 TextIn.Text = string.Empty;
@@ -76,7 +73,6 @@ namespace TF_discreta
                 {
                     nextActivity.PutExtra($"element{i}", myTextViews[i].Text);
                 }
-
                 StartActivity(nextActivity);
             };
         }
